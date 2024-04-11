@@ -23,11 +23,15 @@ public class dados {
         if(total == 7 || total == 11){
             cont = false;
         }
-        elseif(total)
+        else if(total == 2 || total == 3 || total == 12){
+            System.out.println("Perdiste");
             System.out.println("-----------------------------");
+            cont = false;
+
+        }
 
 
-        }while(cont);
+        }while(true);
 
     }
 }
