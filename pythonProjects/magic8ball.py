@@ -3,25 +3,27 @@ import random
 print("Magic 8 Ball")
 question = input("Ask me a question: ")
 answer = random.randint(1, 9)
+message = ""
 
 if answer == 1:
-    print("Yes - definitely.")
+    message = "Yes - definitely."
 elif answer == 2:
-    print("It is decidedly so.")
+    message = "It is decidedly so."
 elif answer == 3:
-    print("Without a doubt.")
+    message = "Without a doubt."
 elif answer == 4:
-    print("Reply hazy, try again.")
+    message = "Reply hazy, try again."
 elif answer == 5:
-    print("Ask again later.")
+    message = "Ask again later."
 elif answer == 6:
-    print("Better not tell you now.")
+    message = "Better not tell you now."
 elif answer == 7:
-    print("My sources say no.")
+    message = "My sources say no."
 elif answer == 8:
-    print("Outlook not so good.")
+    message = "Outlook not so good."
 elif answer == 9:
-    print("Very doubtful.")
+    message = "Very doubtful."
 
+print("8 Ball magic: ", message)
 print("Thank you for playing!")
 
