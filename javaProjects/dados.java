@@ -27,8 +27,9 @@ public class dados {
              punto = total;
              System.out.println("Sigues lanzando");
          }
+
          do{
-             total=sumaDados(lanzarDadoUno(rnd), lanzarDadoDos(rnd));
+             total = sumaDados(lanzarDadoUno(rnd), lanzarDadoDos(rnd));
              if (total == punto) {
                  System.out.println( ". You win!");
                 continuar = false;
