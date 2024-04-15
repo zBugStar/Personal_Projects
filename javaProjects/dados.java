@@ -29,7 +29,11 @@ public class dados {
          }
 
          do{
+             System.out.println("En el primer dado salio el numero "+ lanzarDadoUno(rnd));
+             System.out.println("En el segundo dado salio el numero "+ lanzarDadoDos(rnd));
              total = sumaDados(lanzarDadoUno(rnd), lanzarDadoDos(rnd));
+             System.out.println("La suma de ambos dados es de "+ total);
+
              if (total == punto) {
                  System.out.println( ". You win!");
                 continuar = false;
@@ -39,7 +43,7 @@ public class dados {
                 continuar = false;
             }
              else {
-                System.out.println(". Roll again.");
+                System.out.println(" Roll again.");
             }
 
          }while(!continuar);
