@@ -8,7 +8,7 @@ raiz.resizable(0,1)
 raiz.config(bg="white")
 
 label1 = tkinter.Label(raiz, text="Hola, bienvenido a mi programa", bg="lightblue", fg="beige", font=("Arial", 12))
-label1.place(x=100, y=100)
+label1.place(x=150, y=100)
 
 
 def saludo():

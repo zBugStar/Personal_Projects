@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d21e535-db0b-48a7-81d8-daa53f775943" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/POO/interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/POO/interfaces.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +53,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
@@ -74,6 +74,7 @@
       <workItem from="1713908622387" duration="1150000" />
       <workItem from="1713909800601" duration="2000" />
       <workItem from="1713910119622" duration="360000" />
+      <workItem from="1713910672219" duration="43000" />
     </task>
     <servers />
   </component>
@@ -81,6 +82,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProjects$interfaces.coverage" NAME="interfaces Coverage Results" MODIFIED="1713909779567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
+    <SUITE FILE_PATH="coverage/pythonProjects$interfaces.coverage" NAME="interfaces Coverage Results" MODIFIED="1713910705539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
   </component>
 </project>
