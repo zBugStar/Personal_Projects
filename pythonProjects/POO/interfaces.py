@@ -4,7 +4,7 @@ from tkinter import *
 raiz = Tk()
 raiz.title("Ventana de pruebas")
 raiz.geometry("960x540")
-raiz.resizable(1,1)
+raiz.resizable(0,1)
 raiz.config(bg="white")
 
 label1 = tkinter.Label(raiz, text="Hola, bienvenido a mi programa", bg="lightblue", fg="beige", font=("Arial", 12))
