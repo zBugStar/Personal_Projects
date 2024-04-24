@@ -1,3 +1,5 @@
+package BasicLearning;
+
 import java.util.Random;
 
 public class crapGame {

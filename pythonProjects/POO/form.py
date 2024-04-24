@@ -43,25 +43,25 @@ def exit():
     window.destroy()
 
 
-def sumbit():
-    userdate = username.get()
-    passdate = password.get()
-    namedate = fullname.get()
-    agedate = age.get()
-    genredate = genre.get()
+def send():
+    userdata = username.get()
+    passdata = password.get()
+    namedata = fullname.get()
+    agedata = age.get()
+    genredata = genre.get()
 
-    print(f"Username: {userdate}\nPassword: {passdate}\nFull name: {namedate}\nAge: {agedate}\nGenre: {genredate}")
+    print(f"Username: {userdata}\nPassword: {passdata}\nFull name: {namedata}\nAge: {agedata}\nGenre: {genredata}")
 
     newfile = open("Registration", "a")
-    newfile.write(userdate)
+    newfile.write(userdata)
     newfile.write("\n")
-    newfile.write(passdate)
+    newfile.write(passdata)
     newfile.write("\n")
-    newfile.write(namedate)
+    newfile.write(namedata)
     newfile.write("\n")
-    newfile.write(agedate)
+    newfile.write(agedata)
     newfile.write("\n")
-    newfile.write(genredate)
+    newfile.write(genredata)
     newfile.write("\n")
     newfile.write("\n")
     newfile.close()
@@ -73,8 +73,9 @@ def sumbit():
     genre_entry.delete(0, END)
 
 
-submit_button = Button(window, text="Submit", width="30", height="2", bg="blue", fg="white", command=sumbit)
-submit_button.place(x=22, y=380)
+send_button = Button(window, text="send", width="30", height="2",  command=send)
+send_button.config(font=("Open Sans", 12), bg="royalblue3", fg="white", borderwidth=5, relief="raised")
+send_button.place(x=22, y=380)
 
 exitButton = tkinter.Button(window, text="Exit", height=1, width=4, command=exit, borderwidth=5)
 exitButton.config(bg="red", fg="white", font=("Arial", 12))
