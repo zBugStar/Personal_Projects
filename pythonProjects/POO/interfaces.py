@@ -1,35 +1,24 @@
 import tkinter
 from tkinter import *
 
-raiz = Tk()
-raiz.title("Ventana de pruebas")
-raiz.geometry("960x540")
-raiz.resizable(0,1)
-raiz.config(bg="white")
+window = Tk()
+window.title("Ventana de pruebas")
+window.geometry("960x540")
+window.resizable(1, 1)
+window.config(bg="white")
 
-label1 = tkinter.Label(raiz, text="Hola, bienvenido a mi programa", bg="lightblue", fg="beige", font=("Arial", 12))
-label1.place(x=150, y=100)
-
-
-def saludo():
-    tkinter.Label(raiz, text="Hola, bienvenido a mi programa", bg="lightblue", fg="beige", font=("Arial", 12), )
+titlePage = tkinter.Label(window, text="Welcome to Genius Help", font=("Open Sans", 26))
+titlePage.place(x=20, y=33)
 
 
-def salir():
-    raiz.destroy()
+def exit():
+    window.destroy()
 
 
-button = tkinter.Button(raiz, text="Salir", height=5, width=10, command=salir)
-button.config(bg="red", fg="white", font=("Arial", 12))
-button.winfo_geometry()
-button.place(x=250, y=338.9)
+exitButton = tkinter.Button(window, text="Exit", height=1, width=4, command=exit, borderwidth=5,)
+exitButton.config(bg="red", fg="white", font=("Arial", 12))
+exitButton.place(x=850, y=450)
 
-button2 = tkinter.Button(raiz, text="Saludo", height=5, width=10, command=saludo,)
-button2.config(bg="green", fg="white", font=("Courier", 12))
-button2.place(x=250, y=100,)
 
-raiz.mainloop()
+window.mainloop()
 
-label1.pack()
-button.pack()
-button2.pack()
