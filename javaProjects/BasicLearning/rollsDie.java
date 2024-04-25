@@ -14,8 +14,8 @@ public class rollsDie {
 
         System.out.println("Face | Frecuency");
 
-        for(int j = 0; j < rolls.length; j++){
-            System.out.println("Face " + (j + 1) + ": " + rolls[j]);
+        for(int face = 0; face < rolls.length; face++){
+            System.out.println("Face " + (face + 1) + ": " + rolls[face]);
         }
     }
 }
