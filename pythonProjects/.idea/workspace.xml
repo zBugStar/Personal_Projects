@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d21e535-db0b-48a7-81d8-daa53f775943" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaProjects/POO/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaProjects/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaProjects/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaProjects/POO/Form1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/POO/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/Registration" beforeDir="false" afterPath="$PROJECT_DIR$/POO/Registration" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +56,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
@@ -83,6 +83,7 @@
       <workItem from="1713920750402" duration="688000" />
       <workItem from="1713975390555" duration="7979000" />
       <workItem from="1713990784675" duration="2814000" />
+      <workItem from="1714001827991" duration="2316000" />
     </task>
     <servers />
   </component>
@@ -90,7 +91,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProjects$form.coverage" NAME="form Coverage Results" MODIFIED="1713993555528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
+    <SUITE FILE_PATH="coverage/pythonProjects$form.coverage" NAME="form Coverage Results" MODIFIED="1714001854934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/pythonProjects$interfaces.coverage" NAME="interfaces Coverage Results" MODIFIED="1713990404305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
   </component>
 </project>
