@@ -54,9 +54,9 @@ def lightTheme(*args):
                              background=[("active", "#3747DB")])
 
 
-def entreValues(key):
+def enterValues(key):
     if "0" >= key <= "9" or key == "." or "(" or ")" or key == "*" or key == "+" or key == "-" or key == "/":
-        entrada2.set(entrada2.get()+key)
+        entrada2.set(entrada2.get() + key)
 
     if key == "*" or key == "+" or key == "-" or key == "/":
 
@@ -72,14 +72,57 @@ def entreValues(key):
         entrada2.set("")
 
     if key == "=":
-
         entrada1.set(entrada1.get() + entrada2.get())
 
         operation = entrada1.get()
-        operation = operation[:len(operation)-1]
+        operation = operation[:len(operation) - 1]
 
         result = eval(operation)
         entrada2.set(result)
+
+
+def enterValuesKeyBoard(event):
+    key = event.char
+
+    if "0" >= key <= "9" or key == "." or "(" or ")" or key == "*" or key == "+" or key == "-" or key == "/":
+        entrada2.set(entrada2.get() + key)
+
+    if key == "*" or key == "+" or key == "-" or key == "/":
+
+        if key == "*":
+            entrada1.set(entrada2.get())
+        elif key == "+":
+            entrada1.set(entrada2.get())
+        elif key == "-":
+            entrada1.set(entrada2.get())
+        elif key == "/":
+            entrada1.set(entrada2.get())
+
+        entrada2.set("")
+
+    if key == "=":
+        entrada1.set(entrada1.get() + entrada2.get())
+
+        operation = entrada1.get()
+        operation = operation[:len(operation) - 1]
+
+        result = eval(operation)
+        entrada2.set(result)
+
+
+def squareRoot():
+    entrada1.set(" ")
+    result = math.sqrt(float(entrada2.get()))
+    entrada2.set(result)
+
+
+def delete():
+    entrada2.set(entrada2.get()[:len(entrada2.get()) - 1])
+
+
+def clear():
+    entrada1.set(" ")
+    entrada2.set(" ")
 
 
 # Creamos la ventana de la calculadora
@@ -144,31 +187,31 @@ style_buttonRemamnig.map("ButtonRemanig.TButton", foreground=[("active", "white"
 
 # Creamos botones de la calculadora
 
-button0 = ttk.Button(mainframe, text="0", style="Button.TButton", command=lambda: entreValues("0"))
-button1 = ttk.Button(mainframe, text="1", style="Button.TButton", command=lambda: entreValues("1"))
-button2 = ttk.Button(mainframe, text="2", style="Button.TButton", command=lambda: entreValues("2"))
-button3 = ttk.Button(mainframe, text="3", style="Button.TButton", command=lambda: entreValues("3"))
-button4 = ttk.Button(mainframe, text="4", style="Button.TButton", command=lambda: entreValues("4"))
-button5 = ttk.Button(mainframe, text="5", style="Button.TButton", command=lambda: entreValues("5"))
-button6 = ttk.Button(mainframe, text="6", style="Button.TButton", command=lambda: entreValues("6"))
-button7 = ttk.Button(mainframe, text="7", style="Button.TButton", command=lambda: entreValues("7"))
-button8 = ttk.Button(mainframe, text="8", style="Button.TButton", command=lambda: entreValues("8"))
-button9 = ttk.Button(mainframe, text="9", style="Button.TButton", command=lambda: entreValues("9"))
+button0 = ttk.Button(mainframe, text="0", style="Button.TButton", command=lambda: enterValues("0"))
+button1 = ttk.Button(mainframe, text="1", style="Button.TButton", command=lambda: enterValues("1"))
+button2 = ttk.Button(mainframe, text="2", style="Button.TButton", command=lambda: enterValues("2"))
+button3 = ttk.Button(mainframe, text="3", style="Button.TButton", command=lambda: enterValues("3"))
+button4 = ttk.Button(mainframe, text="4", style="Button.TButton", command=lambda: enterValues("4"))
+button5 = ttk.Button(mainframe, text="5", style="Button.TButton", command=lambda: enterValues("5"))
+button6 = ttk.Button(mainframe, text="6", style="Button.TButton", command=lambda: enterValues("6"))
+button7 = ttk.Button(mainframe, text="7", style="Button.TButton", command=lambda: enterValues("7"))
+button8 = ttk.Button(mainframe, text="8", style="Button.TButton", command=lambda: enterValues("8"))
+button9 = ttk.Button(mainframe, text="9", style="Button.TButton", command=lambda: enterValues("9"))
 
-button_borrar = ttk.Button(mainframe, text=chr(9003), style="ButtonBorrar.TButton")
-button_borrar_todo = ttk.Button(mainframe, text="C", style="ButtonBorrar.TButton")
+button_borrar = ttk.Button(mainframe, text=chr(9003), style="ButtonBorrar.TButton", command=lambda: delete())
+button_borrar_todo = ttk.Button(mainframe, text="C", style="ButtonBorrar.TButton", command=lambda: clear())
 
-button_parentesis1 = ttk.Button(mainframe, text="(", style="ButtonRemanig.TButton", command=lambda: entreValues("("))
-button_parentesis2 = ttk.Button(mainframe, text=")", style="ButtonRemanig.TButton", command=lambda: entreValues(")"))
-button_punto = ttk.Button(mainframe, text=".", style="Button.TButton", command=lambda: entreValues("."))
+button_parentesis1 = ttk.Button(mainframe, text="(", style="ButtonRemanig.TButton", command=lambda: enterValues("("))
+button_parentesis2 = ttk.Button(mainframe, text=")", style="ButtonRemanig.TButton", command=lambda: enterValues(")"))
+button_punto = ttk.Button(mainframe, text=".", style="Button.TButton", command=lambda: enterValues("."))
 
-button_suma = ttk.Button(mainframe, text="+", style="ButtonOP.TButton", command=lambda: entreValues("+"))
-button_resta = ttk.Button(mainframe, text="-", style="ButtonOP.TButton", command=lambda: entreValues("-"))
-button_multiplicacion = ttk.Button(mainframe, text="*", style="ButtonOP.TButton", command=lambda: entreValues("*"))
-button_division = ttk.Button(mainframe, text=chr(247), style="ButtonOP.TButton", command=lambda: entreValues("/"))
-button_raiz = ttk.Button(mainframe, text=chr(8730), style="ButtonOP.TButton", command=lambda: entreValues(chr(8730)))
+button_suma = ttk.Button(mainframe, text="+", style="ButtonOP.TButton", command=lambda: enterValues("+"))
+button_resta = ttk.Button(mainframe, text="-", style="ButtonOP.TButton", command=lambda: enterValues("-"))
+button_multiplicacion = ttk.Button(mainframe, text="*", style="ButtonOP.TButton", command=lambda: enterValues("*"))
+button_division = ttk.Button(mainframe, text=chr(247), style="ButtonOP.TButton", command=lambda: enterValues("/"))
+button_raiz = ttk.Button(mainframe, text=chr(8730), style="ButtonOP.TButton", command=lambda: squareRoot())
 
-button_igual = ttk.Button(mainframe, text="=", style="ButtonOP.TButton", command=lambda: entreValues("="))
+button_igual = ttk.Button(mainframe, text="=", style="ButtonOP.TButton", command=lambda: enterValues("="))
 
 # Colocamos los botones en la pantalla
 button_parentesis1.grid(column=0, row=3, sticky=(N + W + E + S))
@@ -203,6 +246,9 @@ for child in mainframe.winfo_children():
 
 window.bind("<KeyPress-o>", lambda e: darkTheme())
 window.bind("<KeyPress-l>", lambda e: lightTheme())
+window.bind("<Key>", enterValuesKeyBoard)
+window.bind("<KeyPress-BackSpace>", lambda e: delete())
+window.bind("<KeyPress-c>", lambda e: clear())
 
 # Iniciamos la calculadora
 window.mainloop()
