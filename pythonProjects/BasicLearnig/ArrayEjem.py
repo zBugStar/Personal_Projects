@@ -7,6 +7,8 @@ edades.insert(1, 14)
 print(nombres.count("Juan"))
 size = len(nombres)
 
+print(nombres)
+
 while "Juan" in nombres:
     replace = nombres.index("Juan")
     nombres[replace] = "Jhon"
