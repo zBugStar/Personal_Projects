@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d21e535-db0b-48a7-81d8-daa53f775943" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/POO/Archivos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/Clases/Clases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/Clases/claseAlumno.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/alumnos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POO/CalculadoraTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/Calculadora.py" beforeDir="false" afterPath="$PROJECT_DIR$/POO/Calculadora.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "Python.Archivos.executor": "Run",
     "Python.ArrayEjem.executor": "Run",
     "Python.Calculadora.executor": "Run",
+    "Python.CalculadoraTest.executor": "Run",
     "Python.Clases.executor": "Run",
     "Python.DictionaryEjem.executor": "Run",
     "Python.HelloWorld.executor": "Run",
@@ -56,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/PERSONAL/Desktop/Personal_Projects/pythonProjects",
+    "last_opened_file_path": "C:/Users/PERSONAL/Desktop/Personal_Projects/pythonProjects/POO/Clases",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,15 +69,18 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PERSONAL\Desktop\Personal_Projects\pythonProjects\POO\Clases" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PERSONAL\Desktop\Personal_Projects\pythonProjects\POO" />
       <recent name="C:\Users\USUARIO\Desktop\Personal_Projects\pythonProjects\POO\Clases" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
@@ -115,6 +120,7 @@
       <workItem from="1714955984348" duration="3887000" />
       <workItem from="1715016307501" duration="5893000" />
       <workItem from="1715036283982" duration="2894000" />
+      <workItem from="1715115698074" duration="6326000" />
     </task>
     <servers />
   </component>
@@ -122,17 +128,18 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProjects$form.coverage" NAME="form Coverage Results" MODIFIED="1714663914907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/pythonProjects$for.coverage" NAME="for Coverage Results" MODIFIED="1715024442313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
-    <SUITE FILE_PATH="coverage/pythonProjects$coinFlip.coverage" NAME="coinFlip Coverage Results" MODIFIED="1715018449933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
-    <SUITE FILE_PATH="coverage/pythonProjects$Calculadora.coverage" NAME="Calculadora Coverage Results" MODIFIED="1714663842111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
-    <SUITE FILE_PATH="coverage/pythonProjects$Match.coverage" NAME="Match Coverage Results" MODIFIED="1715024278579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$DictionaryEjem.coverage" NAME="DictionaryEjem Coverage Results" MODIFIED="1715017382476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
-    <SUITE FILE_PATH="coverage/pythonProjects$ArrayEjem.coverage" NAME="ArrayEjem Coverage Results" MODIFIED="1715024834383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
-    <SUITE FILE_PATH="coverage/pythonProjects$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1715036310717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$interfaces.coverage" NAME="interfaces Coverage Results" MODIFIED="1713990404305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
+    <SUITE FILE_PATH="coverage/pythonProjects$Match.coverage" NAME="Match Coverage Results" MODIFIED="1715024278579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
+    <SUITE FILE_PATH="coverage/pythonProjects$Calculadora.coverage" NAME="Calculadora Coverage Results" MODIFIED="1715116934565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
+    <SUITE FILE_PATH="coverage/pythonProjects$coinFlip.coverage" NAME="coinFlip Coverage Results" MODIFIED="1715018449933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$Clases.coverage" NAME="Clases Coverage Results" MODIFIED="1715038235797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Clases" />
+    <SUITE FILE_PATH="coverage/pythonProjects$form.coverage" NAME="form Coverage Results" MODIFIED="1714663914907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
+    <SUITE FILE_PATH="coverage/pythonProjects$CalculadoraTest.coverage" NAME="CalculadoraTest Coverage Results" MODIFIED="1715124209201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/pythonProjects$Archivos.coverage" NAME="Archivos Coverage Results" MODIFIED="1715037145532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
+    <SUITE FILE_PATH="coverage/pythonProjects$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1715036310717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
+    <SUITE FILE_PATH="coverage/pythonProjects$ArrayEjem.coverage" NAME="ArrayEjem Coverage Results" MODIFIED="1715024834383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$funtion.coverage" NAME="funtion Coverage Results" MODIFIED="1715025729800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
   </component>
 </project>

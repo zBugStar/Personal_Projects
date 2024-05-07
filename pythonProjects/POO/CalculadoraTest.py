@@ -55,23 +55,12 @@ def lightTheme(*args):
 
 
 def enterValues(key):
-    if "0" >= key <= "9" or key == "." or "(" or ")" or key == "*" or key == "+" or key == "-" or key == "/":
+    if ("0" >= key <= "9" or key == "." or "(" or ")" or key == "*" or key == "+" or key == "-" or key == "/"
+            or key == "*" or key == "+" or key == "-" or key == "/"):
         entrada2.set(entrada2.get() + key)
 
-    if key == "*" or key == "+" or key == "-" or key == "/":
-
-        if key == "*":
-            entrada1.set(entrada2.get())
-        elif key == "+":
-            entrada1.set(entrada2.get())
-        elif key == "-":
-            entrada1.set(entrada2.get())
-        elif key == "/":
-            entrada1.set(entrada2.get())
-
-        entrada2.set("")
-
     if key == "=":
+        entrada1.set(" ")
         entrada1.set(entrada1.get() + entrada2.get())
 
         operation = entrada1.get()
@@ -84,21 +73,18 @@ def enterValues(key):
 def enterValuesKeyBoard(event):
     key = event.char
 
-    if "0" >= key <= "9" or key == "." or "(" or ")" or key == "*" or key == "+" or key == "-" or key == "/":
+    if ("0" >= key <= "9" or key == "." or "(" or ")" or key == "*" or key == "+" or key == "-" or key == "/"
+            or key == "*" or key == "+" or key == "-" or key == "/"):
         entrada2.set(entrada2.get() + key)
 
-    if key == "*" or key == "+" or key == "-" or key == "/":
+    if key == "=":
+        entrada1.set(entrada1.get() + entrada2.get())
 
-        if key == "*":
-            entrada1.set(entrada2.get())
-        elif key == "+":
-            entrada1.set(entrada2.get())
-        elif key == "-":
-            entrada1.set(entrada2.get())
-        elif key == "/":
-            entrada1.set(entrada2.get())
+        operation = entrada1.get()
+        operation = operation[:len(operation) - 1]
 
-        entrada2.set("")
+        result = eval(operation)
+        entrada2.set(result)
 
     if key == "=":
         entrada1.set(entrada1.get() + entrada2.get())
