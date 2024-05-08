@@ -97,7 +97,7 @@ def enterValuesKeyBoard(event):
 
 
 def squareRoot():
-    entrada1.set(" ")
+    entrada1.set(entrada2.get())
     result = math.sqrt(float(entrada2.get()))
     entrada2.set(result)
 
