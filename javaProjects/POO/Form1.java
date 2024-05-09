@@ -1,14 +1,17 @@
 package POO;
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Form1 {
+
 
     public static void main(String[] args) {
 
         //Configuration the window
         JFrame ventana = new JFrame();
         ventana.setTitle("Formulario");
-        ventana.setBounds(0, 0, 650, 550);
+        ventana.setBounds(0, 0, 350, 350);
         ventana.setResizable(false);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setLayout(null);
@@ -45,10 +48,16 @@ public class Form1 {
 
         //Creamos un boton para enviar los datos
         JButton button = new JButton("Aceptar");
-        button.setBounds(10, 450, 100, 30);
+        button.setBounds(10, 270, 100, 30);
 
         JButton exitButton = new JButton("Salir");
-        exitButton.setBounds(120, 450, 100, 30);
+        exitButton.setBounds(120, 270, 100, 30);
+        exitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
 
 
         //Agregamos los objetos creadoa a la ventana
