@@ -9,10 +9,10 @@ spawnCharacterY = 250
 widthCharacter = 20
 heightCharacter = 20
 colorCharacter = "White"
+scala_character = 2
 
 # Motion properties
-velocity = 10
-
+velocity = 5
 FPS = 60
 
 

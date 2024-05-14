@@ -9,9 +9,21 @@ pygame.display.set_caption("First Game")
 
 clock = pygame.time.Clock()
 
-player = Character(constant.spawnCharacterX, constant.spawnCharacterY)
+
+def scaleImage(image, scala):
+    height = image.get_height()
+    width = image.get_width()
+    newImage = pygame.transform.scale(image, (width * scala, height * scala))
+    return newImage
 
 
+animation = []
+for i in range(1, 8):
+    image = pygame.image.load(f"assets//image//characters//player//DinoSprites{i}.png")
+    image = scaleImage(image, constant.scala_character)
+    animation.append(image)
+
+player = Character(constant.spawnCharacterX, constant.spawnCharacterY, animation)
 
 # We define motion variables
 moveLeft = False
@@ -43,6 +55,8 @@ while running:
 
     # move the player
     player.move(deltaX, deltaY)
+
+    player.update_animation()
 
     for event in pygame.event.get():
 
