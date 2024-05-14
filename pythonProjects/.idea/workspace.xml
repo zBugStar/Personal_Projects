@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d21e535-db0b-48a7-81d8-daa53f775943" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Games/FirstGame/constantes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/FirstGame/personaje.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicLearnig/99Bottles.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/99Bottles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/constantes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games/FirstGame/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/personaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/personaje.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,8 @@
     "Python.HelloWorld.executor": "Run",
     "Python.Match.executor": "Run",
     "Python.coinFlip.executor": "Run",
+    "Python.crapGame.executor": "Run",
+    "Python.enterPin.executor": "Run",
     "Python.fibonacci.executor": "Run",
     "Python.for.executor": "Run",
     "Python.form.executor": "Run",
@@ -125,6 +128,8 @@
       <workItem from="1715133173874" duration="522000" />
       <workItem from="1715210698012" duration="601000" />
       <workItem from="1715360402557" duration="6204000" />
+      <workItem from="1715696087466" duration="16000" />
+      <workItem from="1715702900287" duration="1228000" />
     </task>
     <servers />
   </component>
@@ -138,9 +143,11 @@
     <SUITE FILE_PATH="coverage/pythonProjects$Match.coverage" NAME="Match Coverage Results" MODIFIED="1715024278579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$Calculadora.coverage" NAME="Calculadora Coverage Results" MODIFIED="1715116934565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/pythonProjects$DictionaryEjem.coverage" NAME="DictionaryEjem Coverage Results" MODIFIED="1715017382476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
+    <SUITE FILE_PATH="coverage/pythonProjects$enterPin.coverage" NAME="enterPin Coverage Results" MODIFIED="1715703028206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
+    <SUITE FILE_PATH="coverage/pythonProjects$crapGame.coverage" NAME="crapGame Coverage Results" MODIFIED="1715702974458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$ArrayEjem.coverage" NAME="ArrayEjem Coverage Results" MODIFIED="1715024834383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1715036310717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
-    <SUITE FILE_PATH="coverage/pythonProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1715366338662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games/FirstGame" />
+    <SUITE FILE_PATH="coverage/pythonProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1715703395033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games/FirstGame" />
     <SUITE FILE_PATH="coverage/pythonProjects$interfaces.coverage" NAME="interfaces Coverage Results" MODIFIED="1713990404305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/pythonProjects$Clases.coverage" NAME="Clases Coverage Results" MODIFIED="1715038235797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Clases" />
     <SUITE FILE_PATH="coverage/pythonProjects$Archivos.coverage" NAME="Archivos Coverage Results" MODIFIED="1715037145532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
