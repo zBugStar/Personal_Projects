@@ -1,6 +1,7 @@
 import pygame
 import constant
 from character import Character
+from weapon import Weapon
 
 pygame.init()
 
@@ -17,13 +18,24 @@ def scaleImage(image, scala):
     return newImage
 
 
+# Import the images
+
+# Player
 animation = []
 for i in range(1, 8):
     image = pygame.image.load(f"assets//image//characters//player//DinoSprites{i}.png")
     image = scaleImage(image, constant.scala_character)
     animation.append(image)
 
+# Weapon
+image_pistol = pygame.image.load("assets//image//weapons//Pistol1.png")
+image_pistol = scaleImage(image_pistol, constant.scala_weapon)
+
+# We create the player
 player = Character(constant.spawnCharacterX, constant.spawnCharacterY, animation)
+
+# We create the weapon
+pistol = Weapon(image_pistol)
 
 # We define motion variables
 moveLeft = False
@@ -56,7 +68,10 @@ while running:
     # move the player
     player.move(deltaX, deltaY)
 
+    # Update the status of the player
     player.update_animation()
+    # Update the status of the weapon
+    pistol.update(player)
 
     for event in pygame.event.get():
 
@@ -85,7 +100,9 @@ while running:
             if event.key == pygame.K_s:
                 moveDown = False
 
+    # Draw the elements
     player.draw(window)
+    pistol.draw(window)
     pygame.display.update()
 
 pygame.quit()

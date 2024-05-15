@@ -6,13 +6,14 @@ class Character():
     def __init__(self, x, y, animation):
 
         self.animation = animation
-        # Imagen de la anicmacion que se muestra actualmente
+        # Image of the character in the game
         self.frame_index = 0
         self.updateTime = pygame.time.get_ticks()
-        # Hora donde se inicio el juego
+
+        # Time when the game started
         self.image = animation[self.frame_index]
 
-        self.shape = pygame.Rect(200, 200, constant.widthCharacter, constant.heightCharacter)
+        self.shape = self.image.get_rect()
         self.shape.center = (x, y)
         self.flip = False
 

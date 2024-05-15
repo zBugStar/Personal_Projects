@@ -1,15 +1,18 @@
 # window properties
 widthWindow = 500
 heightWindow = 500
-backGroundColor = "Black"
+backGroundColor = "#14213d"
 
 # Character properties
 spawnCharacterX = 250
 spawnCharacterY = 250
-widthCharacter = 20
-heightCharacter = 20
+# widthCharacter = 20
+# heightCharacter = 20
 colorCharacter = "White"
-scala_character = 2
+scala_character = 3
+
+# Weapon properties
+scala_weapon = 0.9
 
 # Motion properties
 velocity = 5
