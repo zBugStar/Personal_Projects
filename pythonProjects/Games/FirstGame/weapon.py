@@ -40,7 +40,6 @@ class Weapon():
             if self.angle > 90:
                 self.image = pygame.transform.flip(self.image, False, True)
 
-
         else:
             image_flip = pygame.transform.flip(self.imageOriginal, False, False)
             self.image = pygame.transform.rotate(image_flip, self.angle)
@@ -63,4 +62,3 @@ class Bullet(pygame.sprite.Sprite):
 
     def draw(self, window):
         window.blit(self.image, (self.shape.centerx, self.shape.centery))
-

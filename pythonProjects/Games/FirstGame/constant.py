@@ -13,6 +13,7 @@ scala_character = 3
 
 # Weapon properties
 scala_weapon = 0.9
+scala_bullet = 0.1
 
 # Motion properties
 velocity = 5

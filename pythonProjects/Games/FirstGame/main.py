@@ -32,8 +32,8 @@ image_pistol = pygame.image.load("assets//image//weapons//Pistol1.png")
 image_pistol = scaleImage(image_pistol, constant.scala_weapon)
 
 # bullet
-image_bullet = pygame.image.load("assets//image//weapons//Bullet.png")
-image_bullet = scaleImage(image_bullet, constant.scala_weapon)
+image_bullet = pygame.image.load("assets//image//weapons//bullet.png")
+image_bullet = scaleImage(image_bullet, constant.scala_bullet)
 
 # We create the player
 player = Character(constant.spawnCharacterX, constant.spawnCharacterY, animation)

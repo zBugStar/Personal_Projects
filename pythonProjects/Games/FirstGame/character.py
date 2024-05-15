@@ -27,7 +27,7 @@ class Character():
                 self.frame_index = 0
 
     def draw(self, window):
-        pygame.draw.rect(window, constant.colorCharacter, self.shape, width=1)
+        # pygame.draw.rect(window, constant.colorCharacter, self.shape, width=1)
         imageFlip = pygame.transform.flip(self.image, self.flip, False)
         window.blit(imageFlip, self.shape)
 
