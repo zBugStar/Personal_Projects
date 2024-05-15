@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d21e535-db0b-48a7-81d8-daa53f775943" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Games/FirstGame/weapon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/assets/image/characters/player/DinoSprites7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/assets/image/weapons/Pistol1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/assets/image/weapons/Pistol1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games/FirstGame/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/character.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/FirstGame/constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/constant.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Games/FirstGame/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/FirstGame/weapon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/FirstGame/weapon.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +171,7 @@
       <workItem from="1715696087466" duration="16000" />
       <workItem from="1715702900287" duration="1228000" />
       <workItem from="1715704676377" duration="7834000" />
-      <workItem from="1715792195319" duration="4864000" />
+      <workItem from="1715792195319" duration="9251000" />
     </task>
     <servers />
   </component>
@@ -184,7 +191,7 @@
     <SUITE FILE_PATH="coverage/pythonProjects$crapGame.coverage" NAME="crapGame Coverage Results" MODIFIED="1715702974458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$ArrayEjem.coverage" NAME="ArrayEjem Coverage Results" MODIFIED="1715024834383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1715036310717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
-    <SUITE FILE_PATH="coverage/pythonProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1715799645295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games/FirstGame" />
+    <SUITE FILE_PATH="coverage/pythonProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1715805566653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games/FirstGame" />
     <SUITE FILE_PATH="coverage/pythonProjects$interfaces.coverage" NAME="interfaces Coverage Results" MODIFIED="1713990404305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/pythonProjects$Clases.coverage" NAME="Clases Coverage Results" MODIFIED="1715038235797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Clases" />
     <SUITE FILE_PATH="coverage/pythonProjects$Archivos.coverage" NAME="Archivos Coverage Results" MODIFIED="1715037145532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />

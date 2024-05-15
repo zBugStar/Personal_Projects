@@ -31,11 +31,19 @@ for i in range(1, 8):
 image_pistol = pygame.image.load("assets//image//weapons//Pistol1.png")
 image_pistol = scaleImage(image_pistol, constant.scala_weapon)
 
+# bullet
+image_bullet = pygame.image.load("assets//image//weapons//Bullet.png")
+image_bullet = scaleImage(image_bullet, constant.scala_weapon)
+
 # We create the player
 player = Character(constant.spawnCharacterX, constant.spawnCharacterY, animation)
 
 # We create the weapon
-pistol = Weapon(image_pistol)
+pistol = Weapon(image_pistol, image_bullet)
+
+# We sprites group
+bulletGroup = pygame.sprite.Group()
+
 
 # We define motion variables
 moveLeft = False
@@ -71,7 +79,9 @@ while running:
     # Update the status of the player
     player.update_animation()
     # Update the status of the weapon
-    pistol.update(player)
+    bullet = pistol.update(player)
+    if bullet:
+        bulletGroup.add(bullet)
 
     for event in pygame.event.get():
 
@@ -103,6 +113,10 @@ while running:
     # Draw the elements
     player.draw(window)
     pistol.draw(window)
+
+    for bullet in bulletGroup:
+        bullet.draw(window)
+
     pygame.display.update()
 
 pygame.quit()
