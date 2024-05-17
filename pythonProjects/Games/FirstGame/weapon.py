@@ -1,4 +1,5 @@
 import pygame
+import constant
 import math
 
 
@@ -9,6 +10,8 @@ class Weapon:
         self.angle = 0
         self.image = pygame.transform.rotate(self.imageOriginal, self.angle)
         self.shape = self.image.get_rect()
+        self.shot = False
+        self.last_shot = pygame.time.get_ticks()
 
     def update(self, character):
         bullet = None
@@ -29,8 +32,18 @@ class Weapon:
         distanceY = -(mouse[1] - self.shape.centery)
         self.angle = math.degrees(math.atan2(distanceY, distanceX))
 
-        if pygame.mouse.get_pressed()[0]:
+        if (pygame.mouse.get_pressed()[0] and self.shot == False
+                and (pygame.time.get_ticks() - self.last_shot > constant.coolDownBullet)):
+
             bullet = Bullet(self.imageBullet, self.shape.centerx, self.shape.centery, self.angle)
+            self.shot = True
+            self.last_shot = pygame.time.get_ticks()
+
+        # reset the click
+
+        if not pygame.mouse.get_pressed()[0]:
+            self.shot = False
+
         return bullet
 
     def rotateWeapon(self, rotate):
@@ -60,5 +73,12 @@ class Bullet(pygame.sprite.Sprite):
         self.shape = self.image.get_rect()
         self.shape.center = (x, y)
 
+        self.deltaX = constant.velocity_bullet * math.cos(math.radians(self.angle))
+        self.deltaY = -constant.velocity_bullet * math.sin(math.radians(self.angle))
+
+    def update(self):
+        self.shape.x += self.deltaX
+        self.shape.y += self.deltaY
+
     def draw(self, window):
-        window.blit(self.image, (self.shape.centerx, self.shape.centery))
+        window.blit(self.image, (self.shape.centerx, self.shape.centery - int(self.image.get_height())))

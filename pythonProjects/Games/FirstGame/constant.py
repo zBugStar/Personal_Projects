@@ -10,13 +10,17 @@ spawnCharacterY = 250
 # heightCharacter = 20
 colorCharacter = "White"
 scala_character = 3
+velocity_character = 5
 
 # Weapon properties
 scala_weapon = 0.9
-scala_bullet = 0.1
+
+# Bullet properties
+scala_bullet = 0.08
+velocity_bullet = 10
+coolDownBullet = 500
 
 # Motion properties
-velocity = 5
 FPS = 60
 
 

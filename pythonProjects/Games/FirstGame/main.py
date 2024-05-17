@@ -65,13 +65,16 @@ while running:
     deltaY = 0
 
     if moveLeft:
-        deltaX = constant.velocity
+        deltaX = constant.velocity_character
     if moveRight:
-        deltaX = -constant.velocity
+        deltaX = -constant.velocity_character
     if moveUp:
-        deltaY = -constant.velocity
+        deltaY = -constant.velocity_character
     if moveDown:
-        deltaY = constant.velocity
+        deltaY = constant.velocity_character
+
+    if deltaX == 0 and deltaY == 0:
+        player.frame_index = 0
 
     # move the player
     player.move(deltaX, deltaY)
@@ -82,6 +85,13 @@ while running:
     bullet = pistol.update(player)
     if bullet:
         bulletGroup.add(bullet)
+
+    for bullet in bulletGroup:
+        bullet.update()
+        if (bullet.shape.x < 0 or bullet.shape.x > constant.widthWindow or
+                bullet.shape.y < 0 or bullet.shape.y > constant.heightWindow):
+
+            bulletGroup.remove(bullet)
 
     for event in pygame.event.get():
 
