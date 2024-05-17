@@ -2,7 +2,7 @@ import pygame
 import math
 
 
-class Weapon():
+class Weapon:
     def __init__(self, image, imageBullet):
         self.imageBullet = imageBullet
         self.imageOriginal = image
@@ -15,12 +15,12 @@ class Weapon():
         self.shape.center = character.shape.center
 
         if not character.flip:
-            self.shape.x = self.shape.x + character.shape.width / 2.5
-            # self.shape.y = self.shape.y + character.shape.height / 4.5
+            self.shape.x = self.shape.x + character.shape.width / 2
+            self.shape.y = self.shape.y + character.shape.height / 4.5
             self.rotateWeapon(False)
         if character.flip:
-            self.shape.x = self.shape.x - character.shape.width / 2.5
-            # self.shape.y = self.shape.y + character.shape.height / 4.5
+            self.shape.x = self.shape.x - character.shape.width / 2
+            self.shape.y = self.shape.y + character.shape.height / 4.5
             self.rotateWeapon(True)
 
         # Move pistol with teh mouse

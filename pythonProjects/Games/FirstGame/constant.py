@@ -1,7 +1,7 @@
 # window properties
 widthWindow = 500
 heightWindow = 500
-backGroundColor = "#14213d"
+backGroundColor = "#edf2f4"
 
 # Character properties
 spawnCharacterX = 250

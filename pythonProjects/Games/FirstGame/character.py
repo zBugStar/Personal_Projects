@@ -2,7 +2,7 @@ import pygame
 import constant
 
 
-class Character():
+class Character:
     def __init__(self, x, y, animation):
 
         self.animation = animation
