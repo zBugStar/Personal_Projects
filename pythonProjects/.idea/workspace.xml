@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d21e535-db0b-48a7-81d8-daa53f775943" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/fonts/kenvector_future.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/images/blue-gem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/images/green-gem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/images/red-gem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/images/space_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/images/space_b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/images/yellow-gem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/music/game.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/redAlert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/sounds/ok.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/RedAlert/sounds/pickup.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/99Bottles.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/FOR/99Bottles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/ArrayEjem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/BMI.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/VARIABLES/BMI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/Currency.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/VARIABLES/Currency.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/DictionaryEjem.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/LISTAS/DICCIONARIOS/DictionaryEjem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/HelloWorld.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/VARIABLES/HelloWorld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/Match.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/CONDICIONALES/MATCH/Match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/Phytagorean.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/VARIABLES/Phytagorean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/QuadraticFormula.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/VARIABLES/QuadraticFormula.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/coinFlip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/crapGame.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/enterPin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/WHILE/enterPin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/fibonacci.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/fizzBuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/FOR/fizzBuzz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/for.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/FOR/for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/funtion.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/FUNTIONS/funtion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/grades.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/guess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/magic8ball.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/pHLevels.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/CONDICIONALES/IF/pHLevels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/simpleAddition.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/VARIABLES/simpleAddition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/sortingHat.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/CONDICIONALES/IF/sortingHat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/temperature.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/VARIABLES/temperature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicLearnig/theCyclone.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicLearnig/CONDICIONALES/IF/theCyclone.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/PERSONAL/Desktop/Personal_Projects/pythonProjects/Games/RedAlert",
+    "last_opened_file_path": "C:/Users/PERSONAL/Desktop/Personal_Projects/pythonProjects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -205,6 +170,8 @@
       <workItem from="1715960551550" duration="1186000" />
       <workItem from="1715978010471" duration="3992000" />
       <workItem from="1716236920726" duration="7675000" />
+      <workItem from="1716325017392" duration="70000" />
+      <workItem from="1716342404734" duration="53000" />
     </task>
     <servers />
   </component>
@@ -232,6 +199,6 @@
     <SUITE FILE_PATH="coverage/pythonProjects$ArrayEjem.coverage" NAME="ArrayEjem Coverage Results" MODIFIED="1715024834383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$coinFlip.coverage" NAME="coinFlip Coverage Results" MODIFIED="1715018449933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1715036310717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
-    <SUITE FILE_PATH="coverage/pythonProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1716241868421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games/FirstGame" />
+    <SUITE FILE_PATH="coverage/pythonProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1716342425400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games/FirstGame" />
   </component>
 </project>
