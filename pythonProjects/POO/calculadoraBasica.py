@@ -10,11 +10,12 @@ e_texto = Entry(ventana, font="Calibri 20")
 e_texto.grid(row = 0, column = 0, columnspan = 4, padx = 10, pady = 5)
 
 #Funciones
+#Con esta funcion agregamos los numeros al label, la i es la ubicacion de los numeros en el Label
 def click_boton(valor):
     global i
     e_texto.insert(i, valor)
     i += 1
-
+    print(i)
 #Con esta funcion vamos a eliminar el ultimo caracter que pusimos
 def borrar():
     e_texto.delete(0, END)

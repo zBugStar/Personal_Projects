@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d21e535-db0b-48a7-81d8-daa53f775943" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/POO/calculadoraBasica.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/CalculadoraTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/POO/CalculadoraTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/CalculadoraStyle.py" beforeDir="false" afterPath="$PROJECT_DIR$/POO/CalculadoraStyle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/calculadoraBasica.py" beforeDir="false" afterPath="$PROJECT_DIR$/POO/calculadoraBasica.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +179,7 @@
       <workItem from="1716476038444" duration="5159000" />
       <workItem from="1716481677364" duration="2453000" />
       <workItem from="1716486080352" duration="818000" />
+      <workItem from="1716491243996" duration="38000" />
     </task>
     <servers />
   </component>
@@ -209,6 +209,6 @@
     <SUITE FILE_PATH="coverage/pythonProjects$constant.coverage" NAME="constant Coverage Results" MODIFIED="1715794839354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Games/FirstGame" />
     <SUITE FILE_PATH="coverage/pythonProjects$funtion.coverage" NAME="funtion Coverage Results" MODIFIED="1716245013009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BasicLearnig" />
     <SUITE FILE_PATH="coverage/pythonProjects$calculadoraBasica.coverage" NAME="calculadoraBasica Coverage Results" MODIFIED="1716479322599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
-    <SUITE FILE_PATH="coverage/pythonProjects$CalculadoraTest.coverage" NAME="CalculadoraTest Coverage Results" MODIFIED="1716486741855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
+    <SUITE FILE_PATH="coverage/pythonProjects$CalculadoraTest.coverage" NAME="CalculadoraTest Coverage Results" MODIFIED="1716491263580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
   </component>
 </project>

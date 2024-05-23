@@ -2,11 +2,11 @@ from tkinter import *
 
 
 #Paleta de colores para los botones
-fondo = "#0d1b2a"
-botonNumeros = "#778da9"
-botonNumerosHover = "#003049"
-botonOperaciones = "#c1121f"
-botonOperacionesHover = "#780000"
+fondo = "#40434e"
+botonNumeros = "#dcdcdd"
+botonNumerosHover = "#4c5454"
+botonOperaciones = "#1985a1"
+botonOperacionesHover = "#7fc8f8"
 texto = "black"
 textoOperaciones = "White"
 
@@ -14,14 +14,16 @@ textoOperaciones = "White"
 window = Tk()
 window.title("Calculadora")
 window.config(bg = fondo)
+window.resizable(False, False)
 
-
-
+#Esta 1 simbolisa la pocision del numero que acabamos de seleccionar
 i=0
 
-entryText = Entry(window, font = "Calibri 20")
+#Creamos el entre el cual es la barra en donde vamos a anotar nuestras operaciones y resultados
+entryText = Entry(window, font = "Calibri 22")
 entryText.grid(row = 0, column = 0, columnspan = 4, padx = 5, pady = 2.5)
 
+#Con esta funcion agregamos los valores al entry
 def click_boton(valor):
     global i 
     entryText.insert(i,valor)
@@ -29,11 +31,11 @@ def click_boton(valor):
         i+=2
     else:
         i+=1
-    
+#Con esta funcion eliminamos todos los caracteres que hayan en el entry
 def borrar():
     entryText.delete(0, END)
     i = 0
-    
+#Con esta funcion hacemos las operaciones la cuales se evaluan con la funcion eval, el cual va evaluar la variable ecuacion    
 def hacer_operacion():
     ecuacion = entryText.get()
     resultado = eval(ecuacion)
@@ -41,12 +43,13 @@ def hacer_operacion():
     entryText.insert(0, resultado)
     i=0
 
-#Funcion para cambiar el background cuando pase el puntero
+#Funcion para cambiar el background de el boton cuando pase el puntero
 def on_enterNum(event):
-    event.widget.config(bg = botonNumerosHover)
-
+    event.widget.config(bg = botonNumerosHover, fg = "White")
+    
+#Funcion para que el boton vuelva a su color original
 def on_leaveNum(event):
-    event.widget.config(bg = botonNumeros)
+    event.widget.config(bg = botonNumeros, fg = "Black")
     
 def on_enterOP(event):
     event.widget.config(bg = botonOperacionesHover)
@@ -54,11 +57,11 @@ def on_enterOP(event):
 def on_leaveOP(event):
     event.widget.config(bg = botonOperaciones)
     
-#Estilos para lso botonoes
-estilosNumeros = {'fg':texto, 'font': ('Calibri', 12), 'bg': botonNumeros,  }
+#Creamos los estilos para lso botones
+estilosNumeros = {'fg':texto, 'font': ('Calibri', 12), 'bg': botonNumeros}
 estilosOperaciones = {'fg':textoOperaciones, 'font': ('Calibri', 12), 'bg': botonOperaciones}
     
-#Botones
+#Creamos los botones y con el ** agregamos los estilos que escogimos
 boton1 = Button(window, text="1", widt=5,height=2, command = lambda: click_boton(1), **estilosNumeros)
 boton2 = Button(window, text="2", widt=5,height=2, command = lambda: click_boton(2), **estilosNumeros)
 boton3 = Button(window, text="3", widt=5,height=2, command = lambda: click_boton(3), **estilosNumeros)
@@ -84,9 +87,9 @@ boton_igual = Button(window, text= "=", width=5, height=2, command = lambda: hac
 
 botonesNumeros = (boton1, boton2, boton3, boton4, boton5, boton6, boton7, boton8, boton9, boton0)
 botonesOperaciones = (boton_borrar, boton_abrir_parentesis, boton_cerrar_parentesis, boton_punto,boton_suma,boton_resta,
-                      boton_multiplicacion,boton_division,boton_igual)
-# ponemos los botones en pantalla 
+                      boton_multiplicacion,boton_division,boton_igual, boton_pot)
 
+# ponemos los botones en pantalla, aqui configuramos su posicion (Fila y columna) y el tamaño de sus bordes (Padx, Pady), y con el sticky ajustamos el boton a los bordes
 boton_borrar.grid(row = 1, column=0, padx=2, pady=5, sticky=(N + W + E + S))
 boton_abrir_parentesis.grid(row = 1, column=1, padx=2, pady=5, sticky=(N + W + E + S))
 boton_cerrar_parentesis.grid(row = 1, column=2, padx=2, pady=5, sticky=(N + W + E + S))
@@ -112,6 +115,7 @@ boton_punto.grid(row= 5, column = 2, padx=2, pady=5, sticky=(N + W + E + S))
 boton_igual.grid(row=5,column = 3, padx=2, pady=5, sticky=(N + W + E + S))
 boton_pot.grid(row=5, column = 0, padx=2, pady = 5, sticky=(N + W + E + S))
 
+#Con este for identificamoc el boton al cual boton se le hace el hover cuando pasamos por encima de el, Boton es la posicion osea el boton que estamos seleccionando en el momento 
 for boton in botonesNumeros:
     
     boton = window.nametowidget(boton)
