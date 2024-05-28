@@ -31,6 +31,7 @@ def display_message(heading_text, sub_heading_text):
 def draw():
     screen.clear()
     screen.blit("space_a", (0, 0))
+    screen.draw.text("LEVEL: "+ str(current_level), midtop = (WIDTH/2, 10), fontname = "kenvector_future")
     if game_over:
         display_message("GAME OVER", "Try again")
     elif game_complete:
@@ -41,10 +42,14 @@ def draw():
 
 
 def update():
-    global gems
+    global gems, game_complete, game_over, current_level
     if len(gems) == 0:
         gems = make_gems(current_level)
-
+    if (game_complete or game_over) and keyboard.space:
+        gems = []
+        current_level = 1
+        game_complete = False
+        game_over = False
 
 def make_gems(number_of_extra_gems):
     colors_to_create = get_colors_to_create(number_of_extra_gems)
@@ -77,14 +82,25 @@ def layout_gems(gems_to_layout):
     for index, gem in enumerate(gems_to_layout):
         new_x_pos = (index + 1) * gap_size
         gem.x = new_x_pos
+        
+        if index % 2 == 0:
+            gem.y = 0
+        else:
+            gem.y = HEIGHT
 
 
 def animate_gems(gems_to_animate):
-    for gem in gems_to_animate:
-        duration = START_SPEED - current_level
-        gem.anchor = ("center", "bottom")
-        animation = animate(gem, duration=duration, on_finished=handle_game_over, y=HEIGHT)
-        animations.append(animation)
+    for index,gem in enumerate(gems_to_animate):
+        random_speed_adjustment = random.randint(0, 2)
+        duration = START_SPEED - current_level + random_speed_adjustment
+        if index % 2 == 0:
+            gem.anchor = ("center", "bottom")
+            animation = animate(gem, duration = duration, on_finished = handle_game_over, y=HEIGHT)
+            animations.append(animation)
+        else:
+            gem.anchor = ("center", "bottom")
+            animation = animate(gem, duration=duration, on_finished=handle_game_over, y=0)
+            animations.append(animation)
 
 
 def handle_game_over():
@@ -104,6 +120,7 @@ def on_mouse_down(pos):
 
 def red_gem_click():
     global current_level, gems, animations, game_complete
+    sounds.ok.play()
     stop_animations(animations)
     if current_level == FINAL_LEVEL:
         game_complete = True
@@ -111,12 +128,28 @@ def red_gem_click():
         current_level = current_level + 1
         gems = []
         animations = []
+        
+def shuffle():
+    global gems
+    if gems:
+        x_values = [gem.x for gem in gems]
+        random.shuffle(x_values)
+        for index, gem in enumerate(gems):
+            new_x = x_values[index]
+            animation  = animate(gem, duration = 0.5, x = new_x)
+            animations.append(animation)
+            
+clock.schedule_interval(shuffle,1)
 
-
+        
+        
 def stop_animations(animations_to_stop):
     for animation in animations_to_stop:
         if animation.running:
             animation.stop()
 
+clock.schedule_interval(shuffle, 1)
+music.set_volume(0.08)
+music.play("game")
 
 pgzrun.go()
